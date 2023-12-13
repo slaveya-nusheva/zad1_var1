@@ -17,7 +17,7 @@ public class Car extends Vehicle implements Comparable<Car>{
     }
 
     @Override
-    public void draw() {
+    public void drive() {
         System.out.println("Prevoznoto sredstvo se dviji");
     }
 
